@@ -1,0 +1,28 @@
+.TestimonialsContainer {
+    height: 500px;
+    background-color: var(--main-background-blue);
+    padding-top: 50px;
+
+    .testimonial-holder {
+        display: flex;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .Testimonial:first-of-type::before {
+        content: '\00A0';
+        font-size: 1px;
+        width: 40px;
+        height: 40px;
+        background-image: url('../assets/images/bg-quotes.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        top: -25px;
+        left: -8px;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,66 @@
+.StayProductive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-color: var(--main-background-blue);
+    color: var(--neutral-white);
+
+    .left {
+       padding: 0 var(--side-padding);
+       background-image: url('../assets/images/illustration-stay-productive.png');
+       background-repeat: no-repeat;
+       background-size: 80%;
+       height: 100%;
+       background-position: center;
+    }
+
+    .left, .right {
+        flex: 1;
+    }
+    
+    .right {
+            text-align: left;
+            padding-right: var(--side-padding);
+    }
+
+    .more-info {
+        color: var(--cyan-gradient);
+        display: inline-flex;
+        overflow: hidden;
+        border-bottom: 1px solid var(--cyan-gradient);
+       
+        
+        &>a {
+            
+            color: var(--cyan-gradient);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .arrow {
+            background-image: url('../assets/images/icon-arrow.svg');
+            height: 16px;
+            width: 16px;
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            border-bottom: 1px solid var(--neutral-white);
+
+            &>a {
+                color: var(--neutral-white);
+            }
+
+            .arrow {
+                background-image: url('../assets/images/icon-arrow-hover.svg');
+;            } 
+        }
+    }
+
+ 
+}

@@ -1,0 +1,28 @@
+.Navigation {
+    height: 50px;
+    color: var(--neutral-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navigation-links {
+        display: flex;
+    }
+
+    a {
+        width: 70px;
+        text-align: right;
+        text-decoration: none;
+        color: var(--neutral-white);
+
+      
+
+        &:hover {
+            font-weight: 700;
+            text-decoration: underline;
+            cursor: pointer;
+            text-shadow:0px 0px 1px black;
+    
+        }
+    }
+}

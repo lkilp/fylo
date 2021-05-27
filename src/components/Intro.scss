@@ -1,0 +1,54 @@
+.Intro {
+    background-color: var(--intro-blue);
+    padding-top: 80px;
+    color: var(--neutral-white);
+    position: relative;
+
+    .wave-background {
+        display: block;
+    }
+
+    .intro-text {
+        position: absolute;
+        top: 0;
+        padding-top: 50px;
+        width: 650px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        line-height: 1.6;
+        
+        p {
+        padding: 0 70px;
+    }
+    }
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0;
+        font-size: 38px;
+        
+    }
+
+
+    button {
+        background: linear-gradient(to right, var(--cyan-gradient), var(--blue-gradient));
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        margin: 20px 0;
+
+
+        a {
+            text-decoration: none;
+            color: var(--neutral-white);
+            font-weight: 700;
+        }
+
+        &:hover {
+            background: var(--cyan-gradient);
+        }
+    }
+
+}

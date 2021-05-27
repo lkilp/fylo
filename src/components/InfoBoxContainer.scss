@@ -1,0 +1,14 @@
+.InfoBoxContainer {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-background-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .info-box-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+}
