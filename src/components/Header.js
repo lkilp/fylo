@@ -7,11 +7,10 @@ const Header = () => {
     return(
         <div className="Header">
             <Navigation />
-            <img src={illustrationIntro} alt="intro illustration">
-                
+            <div className='wave-background'></div>
+            <img src={illustrationIntro} alt="intro illustration" className="intro-picture" >
             </img>
             
-     
         </div>
     )
 }

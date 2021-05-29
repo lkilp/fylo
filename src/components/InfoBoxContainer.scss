@@ -11,4 +11,23 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 60px;
     }
+
+    @media screen and (max-width: 750px) {
+        .info-box-grid {
+            gap: 20px;
+        }
+        
+    }
+
+    @media screen and (max-width: 600px) {
+        .info-box-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media screen and (max-width: 475px) {
+        & {
+            padding-top: 70px;
+        }   
+    }
 }

@@ -25,4 +25,24 @@
         left: -8px;
         z-index: -1;
     }
+
+    @media screen and (max-width: 750px) and (min-width: 476px) {
+        & {
+            padding: 50px 10px 0 10px;
+        }
+        
+    }
+
+    @media screen and (max-width: 600px) {
+        & {
+            height: auto;
+            padding: 0 10px 220px 10px;
+        }
+        .testimonial-holder {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+
 }

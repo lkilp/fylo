@@ -1,8 +1,9 @@
 import React from 'react';
 import './Intro.scss';
 
-import waveBackground from '../assets/images/bg-curvy-desktop.svg';
+// import waveBackground from '../assets/images/bg-curvy-desktop.svg';
 import InfoBoxContainer from './InfoBoxContainer';
+import Button from './Button';
 
 const Intro = () => {
     return(
@@ -11,9 +12,9 @@ const Intro = () => {
                 <h1>All your files in one secure location, <br></br>accessible anywhere.</h1>
                 <p>Fylo stores all your most important files in one secure location. Access them wherever 
     you need, share and collaborate with friends family, and co-workers.</p>
-                <button><a href="/">Get Started</a></button>
+                <Button title='Get Started' />
             </div>
-            <img className="wave-background" src={waveBackground} alt="wave background"></img>
+            <div className="wave-background"></div>
             <InfoBoxContainer />
         </div>
     )

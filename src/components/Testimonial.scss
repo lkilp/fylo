@@ -45,4 +45,25 @@
         height: 40px;
     }
 
+    @media screen and (max-width: 800px) and (min-width: 476px) {
+        & {
+            height: 250px;
+            margin: 0 5px;
+        }
+        
+    }
+
+    @media screen and (max-width: 600px) and (min-width: 476px) {
+        margin: 15px 0;
+        padding: 15px;
+    }
+
+    @media screen and (max-width: 475px) {
+        & {
+            width: 70%;
+            margin-bottom: 30px;
+        }
+        
+    }
+
 }

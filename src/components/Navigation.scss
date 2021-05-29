@@ -25,4 +25,14 @@
     
         }
     }
+
+    @media screen and (max-width: 475px) {
+        img {
+            width: 30%;
+        }
+        
+        a { 
+            width: 60px;
+        }
+    }
 }

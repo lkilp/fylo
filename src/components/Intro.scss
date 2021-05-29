@@ -1,11 +1,16 @@
 .Intro {
     background-color: var(--intro-blue);
-    padding-top: 80px;
+    padding-top: 180px;
     color: var(--neutral-white);
     position: relative;
 
     .wave-background {
         display: block;
+        background-image: url('../assets/images/bg-curvy-desktop.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 260px;
     }
 
     .intro-text {
@@ -19,36 +24,52 @@
         line-height: 1.6;
         
         p {
-        padding: 0 70px;
+        padding: 0 70px 20px 70px;
     }
     }
 
     h1 {
         font-family: 'Raleway', sans-serif;
         margin-top: 0;
-        font-size: 38px;
+        font-size: 38px;    
+    }
+
+    @media screen and (max-width: 750px) {
+        .intro-text {
+            display: inline-block;
+            box-sizing: border-box;
+             padding: 20px var(--mobile-side-padding) 0 var(--mobile-side-padding);
+            width: 100%;
+        }
+           
+    }
+
+
+    @media screen and (max-width: 475px) {
+        & {
+            padding-top: 0;
+            background-color: var(--main-background-blue);
+        }
+
+        .intro-text {
+            width: auto;
+            position: relative;
+            top: -70px;
+        
+            p {
+                padding: 0;
+            }
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .wave-background {
+            display: none;
+        }
         
     }
-
-
-    button {
-        background: linear-gradient(to right, var(--cyan-gradient), var(--blue-gradient));
-        width: 200px;
-        height: 50px;
-        border-radius: 50px;
-        border: none;
-        margin: 20px 0;
-
-
-        a {
-            text-decoration: none;
-            color: var(--neutral-white);
-            font-weight: 700;
-        }
-
-        &:hover {
-            background: var(--cyan-gradient);
-        }
-    }
+   
 
 }

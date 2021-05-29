@@ -7,5 +7,27 @@
         height: 90px;
     }
 
+    @media screen and (max-width: 900px) {
+        & {
+            padding: 10px;
+            width: 300px;
+        }
+        
+    }
+
+    @media screen and (max-width: 750px) {
+        & {
+            width: 260px;
+            padding: 10px;
+        }
+        
+    }
+
+    @media screen and (max-width: 475px) {
+        img {
+            height: 70px;
+        }
+    }
+
 
 }
