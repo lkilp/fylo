@@ -14,7 +14,7 @@ import Island from './Island';
 
 
 const Footer = () => {
-    return(
+    return (
         <div className="Footer">
             <div className="island-holder">
                 <Island />
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="footer-info">
                     <div className="address">
                         <img className="location icon" src={locationIcon} alt="location icon"></img>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
   dolore magna aliqua</p>
                     </div>
                     <div className="contact">
@@ -35,15 +35,15 @@ const Footer = () => {
                     </div>
                     <div className="more-info">
                         <div className="more-info-left">
-                            <a href='/'>About Us</a>
-                            <a href='/'>Jobs</a>
-                            <a href='/'>Press</a>
-                            <a href='/'>Blog</a>
+                            <a href='.'>About Us</a>
+                            <a href='.'>Jobs</a>
+                            <a href='.'>Press</a>
+                            <a href='.'>Blog</a>
                         </div>
                         <div className="more-info-right">
-                            <a href='/'>Contact Us</a>
-                            <a href='/'>Terms</a>
-                            <a href='/'>Privacy</a>
+                            <a href='.'>Contact Us</a>
+                            <a href='.'>Terms</a>
+                            <a href='.'>Privacy</a>
                         </div>
                     </div>
                     <div className="symbols">

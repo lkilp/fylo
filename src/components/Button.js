@@ -3,9 +3,9 @@ import './Button.scss';
 
 const Button = (props) => {
     const { title, buttonName } = props;
-    return(
+    return (
         <button className={`Button ${buttonName}`} >
-            <a href="/" >{title}</a>
+            <a href="." >{title}</a>
         </button>
     )
 }
